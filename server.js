@@ -3,6 +3,7 @@ const hbs = require('hbs')
 const pug = require('pug')
 const fs = require('fs')
 
+const port = process.env.PORT || 8080; 
 var app = express(); 
 
 app.set('view engine', 'pug')
@@ -48,6 +49,6 @@ app.get('/bad', (req,res) => {
 	)
 })
 
-app.listen(8080, () => {
-	console.log("Server running on port 8080")
+app.listen(port, () => {
+	console.log(`Server is up on port ${port}`)
 })

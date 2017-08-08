@@ -2,6 +2,10 @@
   "name": "node-web-server",
   "version": "1.0.0",
   "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: on test specified\"",
+    "start": "node server.js"
+  },
   "author": "David Castor",
   "license": "MIT",
   "dependencies": {
