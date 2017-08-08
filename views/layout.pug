@@ -1,0 +1,10 @@
+include mixins.pug
+
+- var currentYear = new Date().getFullYear()
+
+doctype html
+html(lang='en')
+	+head
+	body
+		block content
+		+footer

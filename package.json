@@ -1,0 +1,12 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "David Castor",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "pug": "^2.0.0-rc.3"
+  }
+}

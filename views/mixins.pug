@@ -1,0 +1,13 @@
+mixin footer
+	footer
+		p Copyright #{currentYear} 
+
+mixin head
+	head
+		title
+		meta(charset="UTF-8")
+		script(src='styles.css')
+
+mixin content(title, msg)
+	h1= title
+	p= msg
